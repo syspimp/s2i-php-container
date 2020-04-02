@@ -1,7 +1,7 @@
 {
     "require": {
-        "monolog/monolog": "1.0.*",
-        "mongodb/mongodb": "1.6.*"
+        "monolog/monolog": "1.0.*"
+        #"mongodb/mongodb": "1.6.*"
     }
 }
 
