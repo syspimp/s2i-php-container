@@ -75,6 +75,9 @@ COPY ./root/ /
 # Reset permissions of filesystem to default values
 RUN /usr/libexec/container-setup && rpm-file-permissions
 
+RUN pecl install mongodb
+RUN phpenmod mongodb
+
 USER 1001
 
 # Set the default CMD to print the usage of the language image
